@@ -59,9 +59,9 @@ public class InvalidPriceRangeTest {
 
     @AfterClass
     public void tearDown() {
-        // Testdən sonra brauzeri bağlamaq
-//        if (driver != null) {
-//            driver.quit();
-//        }
+//         Testdən sonra brauzeri bağlamaq
+        if (driver != null) {
+            driver.quit();
+        }
     }
 }
